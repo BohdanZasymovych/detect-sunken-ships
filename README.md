@@ -39,7 +39,7 @@ from detect_sunken_ships import detect_ships
 import numpy as np
 
 # Load your depth map
-depth_map = np.load('your_depth_map.npy')  # or use csv with np.loadtxt()
+depth_map = np.loadtxt('depth_map.csv')
 
 # Set ship parameters (in meters)
 ship_length = 34
